@@ -28,7 +28,7 @@ LOCAL_SRC_FILES:= \
 	jpgfile.c \
 	makernote.c
 
-LOCAL_MODULE := libjhead
+LOCAL_MODULE := libhead
 
 LOCAL_SHARED_LIBRARIES := \
 	libcutils \
@@ -57,7 +57,7 @@ LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	libutils \
 	liblog \
-	libjhead
+	libhead
 
 include $(BUILD_SHARED_LIBRARY)
 
